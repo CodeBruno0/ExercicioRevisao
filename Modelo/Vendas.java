@@ -1,4 +1,4 @@
-package Model;
+package Modelo;
 
 public class Vendas {
     
@@ -24,5 +24,5 @@ public class Vendas {
     public void setValorVendido(double valorVendido) {
         this.valorVendido = valorVendido;
     }
-    
+
 }
