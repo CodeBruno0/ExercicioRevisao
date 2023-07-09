@@ -80,10 +80,10 @@ List<String> ingredientes = new ArrayList<>();
         f.setValor((scan.nextDouble()));
         scan.nextLine();
         obterIngredientes();
-        f.setIngredientes(ingredientes);
+        f.setIngredientes(ingredientes);//posso usar esse parametro pra adicionar a string list em food?
         boolean encontrei = false;
 
-        for (Food food : comida) {
+        for (Food food : comida) {//aqui ele nao esta verificando e impedindo o cadastro de informacoes iguais
             if (f.equals(food)) {
                 encontrei = false;
                 System.out.println("Ja temos uma comida cadastrada com esse nome, Chef!");
